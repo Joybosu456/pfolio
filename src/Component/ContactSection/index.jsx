@@ -11,14 +11,18 @@ const Contact = () => {
             Get In Touch
           </h3>
           <p className="contact-info">
-            Although I’m not currently looking for any new opportunities, my inbox is always open.
-            Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+            I’m currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I’ll do my best to get back to you!
           </p>
           <HightlightButton>
-
-            <a href="mailto:bisht143ankit@gmail.com" className="mail-text" >Say Hello
+            {/* 
+            <a href="mailto:joybosu456@gmail.com" target="_blank" className="mail-text" >Say Hello
+            </a> */}
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=joybosu456@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mail-text">Say Hello
             </a>
-
           </HightlightButton>
         </div>
       </AosWrapper>

@@ -33,7 +33,7 @@ const About = () => {
     </p>,
   ];
 
-  const skillList = ["React", "JavaScript", "HTML5", "CSS3", "SCSS", "Next"];
+  const skillList = ["ReactJs", "ViteJs", "JavaScript", "HTML5", "CSS3", "SASS", "SCSS", "BootStrap", "NextJs", "Tailwind css", "Material UI", "Jest (unit testing)","Gitlab","FileZilla","Performance Optimization","Code splitting",".Net(Basic)"];
   return (
     <section id="about">
       <AosWrapper animation={"fade-up"} anchor={"top top"}>

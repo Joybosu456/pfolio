@@ -7,6 +7,9 @@ import { useRef, useState } from "react";
 import feature0 from "../../assets/IMG/ekyc.png"
 import feature1 from "../../assets/IMG/rmportal.png"
 import feature2 from "../../assets/IMG/iam.png"
+import feature3 from "../../assets/IMG/ekyc3.0.png"
+import feature4 from "../../assets/IMG/Telecaller.png"
+
 
 
 
@@ -28,24 +31,24 @@ const add = [{
   desc: "Implemented a system where Telecallers assisted individuals in completing their EKYC process efficiently. This innovation saved time for users and significantly improved their overall experience with EKYC2.0.:1.User-friendly,2.Seamless experience in account opening and updates,3.Onboarded client counts,4.Time-efficient",
   techStack: ["ReactJs", "JS", "HTML", "CSS", "JQuiry"]
 },
-// {
-//   link: { github: "adcasv", website: "svsvf" },
-//   name: "OMS - Ekycadmin",
-//   desc: "Implemented a system where Telecallers assisted individuals in completing their EKYC process efficiently. This innovation saved time for users and significantly improved their overall experience with EKYC2.0.:1.User-friendly,2.Seamless experience in account opening and updates,3.Onboarded client counts,4.Time-efficient",
-//   techStack: ["ReactJs", "JS", "HTML", "CSS", "JQuiry"]
-// },
-// {
-//   link: { github: "adcbkjadca", website: "csdcuwbjc" },
-//   name: "EKYC3.0 - Open Free Demat Account",
-//   desc: "Bajaj Broking's efficient Demat Account opening process ensures a smooth, convenient experience, offering access to diverse investment opportunities across various asset classes(2022-2023,Frontend developer).",
-//   techStack: ["ReactJs", "JS", "HTML", "CSS", "JQuiry"]
-// },
-// {
-//   link: { github: "adcbkjadca", website: "csdcuwbjc" },
-//   name: "EKYCHNI - Open Free Demat Account",
-//   desc: "Bajaj Broking's efficient Demat Account opening process ensures a smooth, convenient experience, offering access to diverse investment opportunities across various asset classes(2022-2023,Frontend developer).",
-//   techStack: ["ReactJs", "JS", "HTML", "CSS", "JQuiry"]
-// },
+  // {
+  //   link: { github: "adcasv", website: "svsvf" },
+  //   name: "OMS - Ekycadmin",
+  //   desc: "Implemented a system where Telecallers assisted individuals in completing their EKYC process efficiently. This innovation saved time for users and significantly improved their overall experience with EKYC2.0.:1.User-friendly,2.Seamless experience in account opening and updates,3.Onboarded client counts,4.Time-efficient",
+  //   techStack: ["ReactJs", "JS", "HTML", "CSS", "JQuiry"]
+  // },
+  // {
+  //   link: { github: "adcbkjadca", website: "csdcuwbjc" },
+  //   name: "EKYC3.0 - Open Free Demat Account",
+  //   desc: "Bajaj Broking's efficient Demat Account opening process ensures a smooth, convenient experience, offering access to diverse investment opportunities across various asset classes(2022-2023,Frontend developer).",
+  //   techStack: ["ReactJs", "JS", "HTML", "CSS", "JQuiry"]
+  // },
+  // {
+  //   link: { github: "adcbkjadca", website: "csdcuwbjc" },
+  //   name: "EKYCHNI - Open Free Demat Account",
+  //   desc: "Bajaj Broking's efficient Demat Account opening process ensures a smooth, convenient experience, offering access to diverse investment opportunities across various asset classes(2022-2023,Frontend developer).",
+  //   techStack: ["ReactJs", "JS", "HTML", "CSS", "JQuiry"]
+  // },
 ]
 const more = [{
   link: { github: "adcasv", website: "svsvf" },
@@ -80,7 +83,7 @@ const featuredProject = [
   {
     projectName: "RM Portal",
     projectDesc: "Contributed to the development of a Risk Management Portal, providing tools for risk assessment, tracking, and reporting, The project aimed to address issues faced by clients during onboarding and enable telecallers to provide real-time assistance, thereby improving the overall customer experience and reducing onboarding friction",
-    projectSpecList: ["React", "SCSS", "Ant-Design","REST API"],
+    projectSpecList: ["React", "SCSS", "Ant-Design", "REST API"],
     projectGitHub: false,
     projectURL: "https://cosmos.bajajfinservsecurities.in/",
     align: "left",
@@ -98,8 +101,23 @@ const featuredProject = [
     img: feature2
 
 
-  }
-
+  },
+  {
+    projectName: "E-KYC3.0",
+    projectDesc: "Worked on the development of an Electronic Know Your Customer (EKYC) onboarding platform, designed to streamline the customer verification process for financial services. The platform aimed to offer a secure, user-friendly experience for customers to complete their KYC requirements online, improving efficiency and compliance with regulatory standards",
+    projectSpecList: ["React(ViteJS)", "SCSS","Hooks", "Bootstrap", "Axios"],
+    projectURL: "https://ekyc.bajajfinservsecurities.in/",
+    align: "left",
+    img: feature3
+  },
+  {
+    projectName: "Telecaller Dashboard",
+    projectDesc: "Developed a frontend solutionto enhance the Electronic Know YourCustomer (EKYC) onboarding process by integrating a telecaller support system Theproject aimedto address issues faced by clients during onboarding andenable telecallers to provide real-time assistance, thereby improving the overall customer experience and reducing onboarding friction. Designed andimplementeda dedicated dashboardfor telecallers using React.js. The dashboard included features for monitoring ongoing onboarding processes, viewing client statuses, and accessing real-time issue reports.Integrated toolswithinthe dashboard thatallowed telecallers to view client details, track progress, and provide instant support.",
+    projectSpecList: ["React", "SCSS", "Bootstrap", "Axios"],
+    projectURL: "https://cosmos.bajajfinservsecurities.in/",
+    align: "right",
+    img: feature4
+  },
 
 ]
 
@@ -125,6 +143,8 @@ const Project = () => {
           <FeaturedProject dataProp={featuredProject[0]} />
           <FeaturedProject dataProp={featuredProject[1]} />
           <FeaturedProject dataProp={featuredProject[2]} />
+          <FeaturedProject dataProp={featuredProject[3]} />
+          <FeaturedProject dataProp={featuredProject[4]} />
         </div>
         {false && <div className="other-project">
           <div className="other-head-wrapper">

@@ -11,13 +11,13 @@ const StickyList = () => {
         }
 
         if (e == "ins") {
-            alert("Not present")
-            // window.open("https://github.com/Joybosu456/myNewWebPage/tree/master", '_blank', 'noopener,noreferrer');
+            // alert("Not present")
+            window.open("https://www.instagram.com/jb.5747/", '_blank', 'noopener,noreferrer');
         }
 
         if (e == "fb") {
-            alert("Not Present")
-            // window.open("https://github.com/Joybosu456/myNewWebPage/tree/master", '_blank', 'noopener,noreferrer');
+            // alert("Not Present")
+            window.open("https://www.facebook.com/jay.basu1999", '_blank', 'noopener,noreferrer');
         }
 
         else {
@@ -48,7 +48,7 @@ const StickyList = () => {
             </div>
             <footer className="bright-text footer">
                 <a href="https://github.com/mrghost143" className="bright-text" target="_blank" rel="noreferrer">Built and enhanced by Joy Basu</a>
-                <a href="https://github.com/bchiang7/v4" className="bright-text" target="_blank" rel="noreferrer">Designed by Brittany Chiang</a>
+                <a href="https://github.com/bchiang7/v4" className="bright-text" target="_blank" rel="noreferrer">Designed by Joy Basu</a>
             </footer>
         </>
     )

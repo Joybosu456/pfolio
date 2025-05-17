@@ -8,7 +8,7 @@ const Job = () => {
   const CompanyInfoList = {
     "Bridgelabz": {
       role: "Front end devloper",
-      duration: "May 2021 - Dec 2021",
+      duration: "Jan 2021 - Dec 2021",
       workedOn: [
         "Core Concepts: Demonstrate a solid understanding of React's fundamental concepts, including JSX, components, state, props, and hooks (useState, useEffect, useReducer, etc.).",
         "Component-Based Architecture: Highlight your ability to break down complex UIs into reusable components, optimizing performance and maintainability.",
