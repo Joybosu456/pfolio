@@ -18,7 +18,7 @@ const About = () => {
     //   build a web app with the Spotify API using Node & React.
     // </p>
     <p key="1">
-      Heello , My name is Ankit Bisht, a results-driven Frontend Developer with around 3
+      Heello , My name is Joy Basu, a results-driven Frontend Developer with 4
       years of experience in React.js and modern web technologies. I am an
       expert in designing, developing, and optimizing responsive web
       applications using HTML5, CSS3, and JavaScript (ES6+). Proficient in React
